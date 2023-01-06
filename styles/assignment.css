@@ -3,16 +3,17 @@
      font-family: 'Work Sans';
 }
 /* header-banner styles */
-/* .header{  
+.header{   
     padding: 0px;
-} */
+}
 .banner{ 
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     text-align: right;
     height: 808px;
-    margin: 0px;
-    padding: 180px 100px 24px 850px;
+    padding: 180px 100px 0px 800px;
+    margin-bottom: -90px;
+  
 }
 .banner-header{
     color: #FFFFFF;
@@ -20,6 +21,7 @@
     font-size: 65px;
     margin-bottom: 0px;
 }
+
 .banner-description{
     font-weight: 400;
     font-size: 16px;
@@ -35,3 +37,47 @@
 
 /* main-failure */
 
+.failure{
+    
+    padding: 0px 320px 20px 200px;
+    margin: 0px 150px 25px 100px;
+   
+}
+
+.failure-flex {
+   display: flex;
+   gap: 100px;
+   width: 300px;
+}
+   
+
+.failure-header {
+    width: 300px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 30px;
+    margin-bottom: 0px;
+   
+}
+
+.failure-para{
+    width: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    
+}
+
+.list{
+    width: 300px;
+    list-style: none;
+    padding-left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+ul li:before {
+    content: '✓';
+    color:lightgreen;
+  }
