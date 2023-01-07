@@ -3,9 +3,7 @@
      font-family: 'Work Sans';
 }
 /* header-banner styles */
-.header{   
-    padding: 0px;
-}
+
 .banner{
     
     background-image: url(../images/banner/banner3.png);
@@ -82,6 +80,33 @@ ul li:before {
     content: '✓';
     color:lightgreen;
   }
+  /* success styles */
+  .success{
+    padding: 0px 320px 20px 200px;
+    margin: 0px 150px 25px 150px;
+  }
+  .success-flex{
+    display: flex;
+    gap: 100px;
+  }
+  .header-success{
+    width: 300px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-top: 30px;
+    margin-bottom: 0px;
+  }
+  .success-para{
+    width: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+  }
+  .success-img{
+    padding-top: 150px;
+   
+  }
   /* plan styles */
 .plan-header{
     font-weight: 700;
@@ -90,15 +115,19 @@ ul li:before {
     text-align: center;
 }
 .plan{
-    margin: 0px 200px 0px;
+    margin: 0px 150px 0px;
     /* background-color: #151414; */
 }
 .my-plan{
     display: flex;
-    gap: 50px;
+    gap: 10px;
     justify-content: center;
-    padding-left: 20px;
-   
+
+}
+.plan-body ,img{
+    
+    margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .plan-2nd-header{
@@ -179,7 +208,7 @@ ul li:before {
 }
 form{
     margin-bottom: 16px;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     border-radius: 8px;
 }
 input{ 
