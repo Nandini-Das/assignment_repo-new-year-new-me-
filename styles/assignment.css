@@ -97,6 +97,7 @@ ul li:before {
     display: flex;
     gap: 50px;
     justify-content: center;
+    padding-left: 20px;
    
 }
 
@@ -134,19 +135,21 @@ ul li:before {
     font-weight: 600;
     font-size: 20px;
     color: #005FAC;
-    margin: 0px 0px 20px 50px;
-    padding: 10px;;
+    margin: 0px 0px 50px 50px;
+    padding: 10px;
 
 }
 /*  */
 .footer-flex{
     display: flex;
-    
+    justify-content: center;
     background-color: #151414;;
 }
 .footer-left{
-    margin-left: 200px;
-    padding-right: 500px;
+    /* margin-left: 200px;
+    margin-right: 500px; */
+   padding: 80px 0px 130px 200px;
+   
 }
 .footer-header{ 
     font-weight: 700;
@@ -155,12 +158,15 @@ ul li:before {
     margin-bottom: 10px;
 }
 .footer-des{
+    margin-right: 100px;
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     
+    
 }
 .footer-header2{
+   
     font-weight: 600;
     font-size: 25px;
     color: #FFFFFF;
@@ -168,7 +174,8 @@ ul li:before {
 
 }
 .footer-right{
-    margin: 0px 220px 200px 0px;
+    padding: 90px 100px 130px 100px;
+   
 }
 form{
     margin-bottom: 16px;
@@ -178,8 +185,12 @@ form{
 input{ 
     background-color: #151414;
     padding: 10px;
+    font-weight: 400;
+font-size: 18px;
 }
-
+a , img{
+    padding-right: 10px;
+}
 .btn3{
     background: #005FAC;
     border-radius: 8px;
