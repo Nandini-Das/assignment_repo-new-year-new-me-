@@ -93,27 +93,98 @@ ul li:before {
     margin: 0px 200px 0px;
     /* background-color: #151414; */
 }
-.my-plan{ 
+.my-plan{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 50px;
-    
+    justify-content: center;
    
 }
 
 .plan-2nd-header{
+   
     font-weight: 700;
     font-size: 30px;
     color: #151414;
     margin-top: 5px;
     margin-bottom: 5px;
-    text-align: center;
 
 }
 .plan-para{
-    font-weight: 500;
+   font-weight: 500;
    font-size: 25px;
    color: #737272;
    text-align: center;
+}
+/* watch styles */
+.watch{
+    margin: 10px 200px 100px;
+    padding: 0px;
+    background-image: url(../images/watch.png) , url(../images/gradient1.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+.watch-header{
+    padding:80px 400px 0px 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.btn2{
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    margin: 0px 0px 20px 50px;
+    padding: 10px;;
+
+}
+/*  */
+.footer-flex{
+    display: flex;
+    
+    background-color: #151414;;
+}
+.footer-left{
+    margin-left: 200px;
+    padding-right: 500px;
+}
+.footer-header{ 
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+.footer-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.footer-header2{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+.footer-right{
+    margin: 0px 220px 200px 0px;
+}
+form{
+    margin-bottom: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+input{ 
+    background-color: #151414;
+    padding: 10px;
+}
+
+.btn3{
+    background: #005FAC;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
 }
